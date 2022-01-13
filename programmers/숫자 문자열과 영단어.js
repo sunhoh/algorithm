@@ -48,7 +48,7 @@ function solution(s) {
 //   s = Number(s);
 //   return s;
 // }
-// solution("one4seveneight")
+
 
 
 // 다른 문제 풀이 2
@@ -64,5 +64,5 @@ function solution(s) {
 //   }
 //   return Number(answer);
 // }
-// solution("one4sevennine")
+
 
