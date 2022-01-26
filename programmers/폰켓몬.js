@@ -17,16 +17,16 @@ function solution(nums) {
 
 // 다른 문제 풀이 1
 
-  function solution(nums) {
+  // function solution(nums) {
  
-    const limit = nums.length / 2
-    // console.log(limit)
+  //   const limit = nums.length / 2
+  //   // console.log(limit)
     
-    const mapping = [...new Set(nums)].length
-    // console.log(mapping)
+  //   const mapping = [...new Set(nums)].length
+  //   // console.log(mapping)
     
-    return mapping > limit ? limit : mapping 
+  //   return mapping > limit ? limit : mapping 
     
-  }
+  // }
   
-  solution([3,1,2,3])
+  // solution([3,1,2,3])
