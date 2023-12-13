@@ -22,16 +22,37 @@ console.log(results.join('\n'))
 
 // ------------------------------------------------
 
-const result =[]
+// const result =[]
 
-for (let i = 0; i < len; i++) {
-    let cnt = 0;
-    for (let s of input[i]) {
-        cnt += s === "(" ? 1 : -1;
-        if (cnt < 0) break;
-    }
+// for (let i = 0; i < len; i++) {
+//     let cnt = 0;
+//     for (let s of input[i]) {
+//         cnt += s === "(" ? 1 : -1;
+//         if (cnt < 0) break;
+//     }
     
-    result.push(cnt === 0 ? 'YES' : "NO");
-}
+//     result.push(cnt === 0 ? 'YES' : "NO");
+// }
 
-console.log(result.join('\n'))
+// console.log(result.join('\n'))
+
+
+// ------------------------------------------------
+
+// function isValid(s) {
+//   const stack = [];
+//   const brackets = { ')': '(', '}': '{', ']': '[' };
+
+//   for (const char of s) {
+//     // !== undefined
+//       if (!!brackets[char]) {
+//           if (!stack.length || stack.pop() !== brackets[char]) {
+//               return false;
+//           }
+//       } else {
+//           stack.push(char);
+//       }
+//   }
+
+//   return stack.length === 0;
+// }
