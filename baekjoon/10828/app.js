@@ -13,18 +13,6 @@ const cmd = {
   top: () => stack.at(-1) || -1,
 }
 
-const cmdLine = () => {
-  const stack = [];
-  const cmd = {
-    push: (ele) => stack.push(ele),
-    pop: () => stack.pop() || -1,
-    size: () => stack.length,
-    empty: () => stack[0] ? 0 : 1,
-    top: () => stack.at(-1) || -1,
-  } 
-}
-console.log(cmdLine)
-
 const result = [];
 
 for(let i=0; i<len; i++){
