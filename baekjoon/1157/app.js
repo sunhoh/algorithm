@@ -3,7 +3,7 @@ const filePath = process.platform === 'linux' ? '/dev/stdin' : './input.txt'
 const input = fs.readFileSync(filePath).toString().trim().toLowerCase()
 
 const hash = input.split('').reduce((acc, char) => {
-  if (!!acc[char]) {
+  if (acc[char]) {
     acc[char] += 1;
   } else {
     acc[char] = 1; 

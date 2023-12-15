@@ -28,3 +28,8 @@ const answer = B.map((v) => {
 });
 
 console.log(answer.join('\n'))
+
+// const set = new Set(A)
+// const result = B.map(v=> set.has(v) ? 1: 0).join('\n')
+// console.log(result)
+
