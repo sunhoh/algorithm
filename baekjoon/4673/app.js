@@ -9,6 +9,7 @@ for (let i = 1; i <= 10000; i++) {
   let notSelfNum = i + sum;
   arr.push(notSelfNum);
 }
+console.log(arr)
 
 for (let i = 1; i <= 10000; i++) {
   if (arr.indexOf(i) === -1) {
