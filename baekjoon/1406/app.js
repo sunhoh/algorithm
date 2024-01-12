@@ -30,3 +30,37 @@ for(i=0;i<n;i++){
   }
   let result = originStack.concat(newStack.reverse()).join("");
   console.log(result);
+
+
+
+// ------------------------------------------------
+
+// const charArr = char.split('')
+// let cursor = char.length;
+
+// for(i=0;i<n;i++){
+//   const [cmd, value] = testcases[i].split(' ')
+
+//   switch (cmd) {
+//     case "L":
+//       if (cursor === 0) continue;
+//         cursor -= 1;
+//         break;
+
+//     case "D":
+//       if (cursor === char.length) continue;
+//         cursor += 1;
+//         break;
+
+//     case "B":
+//         if (cursor === 0) continue;
+//         charArr.splice(cursor - 1, 1);
+//         break;
+
+//     case "P":
+//         charArr.splice(cursor, 0, value);
+//         break;
+//   }  
+// }
+
+// console.log(charArr.join(""));
