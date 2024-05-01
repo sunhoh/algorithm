@@ -25,6 +25,7 @@ console.log(results.join('\n'))
 
 // for (let i = 0; i < len; i++) {
 //     let cnt = 0;
+
 //     for (let s of input[i]) {
 //         cnt += s === "(" ? 1 : -1;
 //         if (cnt < 0) break;

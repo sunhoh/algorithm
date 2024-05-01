@@ -19,6 +19,7 @@ for(i=1;i<=n;i++){
 		stack.pop()
 		answer.push('-')
 		count++;
+		
 		if(count === n) break;
 	}
 }
