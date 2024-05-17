@@ -7,4 +7,5 @@ def solution(arr):
 
     # return [x for x in arr for _ in range(x)]
 
-print(solution([5,1,4]))
+
+print(solution([6,1,3]))
