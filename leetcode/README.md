@@ -1,6 +1,0 @@
-# algorithms
-
-- programmers
-- baekjoon
-
-
