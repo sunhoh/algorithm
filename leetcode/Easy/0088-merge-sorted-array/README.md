@@ -46,3 +46,10 @@ Note that because m = 0, there are no elements in nums1. The 0 is only there to 
 
 <p>&nbsp;</p>
 <p><strong>Follow up: </strong>Can you come up with an algorithm that runs in <code>O(m + n)</code> time?</p>
+
+
+-----
+
+![Merge Sorted Array Example](https://github.com/user-attachments/assets/91f438b9-e03d-437d-a0eb-5ccb8a74b444)
+
+
