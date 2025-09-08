@@ -34,16 +34,25 @@
 // };
 
 // DFS Bottom-Up
+// var hasPathSum = function (root, targetSum) {
+//   function dfs(node, sum) {
+//     if (!node) return [];
+//     if (!node.left && !node.right) return [sum + node.val];
+
+//     const leftSums = dfs(node.left, sum + node.val);
+//     const rightSums = dfs(node.right, sum + node.val);
+
+//     return [...leftSums, ...rightSums];
+//   }
+
+//   return dfs(root, 0).includes(targetSum);
+// };
 var hasPathSum = function (root, targetSum) {
-  function dfs(node, sum) {
-    if (!node) return [];
-    if (!node.left && !node.right) return [sum + node.val];
-
-    const leftSums = dfs(node.left, sum + node.val);
-    const rightSums = dfs(node.right, sum + node.val);
-
-    return [...leftSums, ...rightSums];
+  function dfs(node, acc) {
+    if (!node) return false;
+    acc += node.val;
+    if (!node.left && !node.right) return acc === targetSum;
+    return dfs(node.left, acc) || dfs(node.right, acc);
   }
-
-  return dfs(root, 0).includes(targetSum);
+  return dfs(root, 0);
 };
